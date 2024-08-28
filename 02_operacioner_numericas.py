@@ -8,7 +8,7 @@ print(f'Array de numeros aleatorios: {arr}')
 #Creamos el df del  arr y nombramos la columna 'numeros'
 df_numeros = pd.DataFrame(arr , columns= ['Numeros'])
 
-
+#Multiplicamos x2 para generar los dobles
 df_numeros['Dobles'] = df_numeros['Numeros']*2
 
 print(df_numeros)

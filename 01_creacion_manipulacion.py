@@ -6,10 +6,13 @@ data = {
     'Nota' : [8.5 , 9.0 , 7.5 , 8.0]
 }
 
-#Creamos el dataframe 
+#Creamos el dataframe de la data
 df = pd.DataFrame(data)
-print(df)
 
+
+#Agregamos una nueva columna
 ciudades = ['Madrid' , 'Barcelona' , 'Valencia', 'Sevilla']
 df['Ciudad'] = ciudades
+#Mostramos el dataframe actualizado
+print('DataFrame actualizado: \n')
 print(df)
